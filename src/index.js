@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const http = require("http");
 const server = http.createServer(app);
-const page = "https://v0ddf.sse.codesandbox.io/";
+const page = "https://superfreeze.github.io";
 const getSubtitles = require("youtube-captions-scraper").getSubtitles;
 const tester = {};
 const cors = require("cors");
@@ -142,4 +142,4 @@ app.get("/view", async (req, res) => {
 server.listen(8080, () => {
   console.log("listening on *:" + 8080);
 });
-console.log("bum bum bum bum");
+console.log("bruh");
